@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Luminary is an award-winning creative studio crafting brands through strategy, design, and storytelling. Book your consultation today." />
+  <title>Luminary — Shape Tomorrow | Award-Winning Creative Studio</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Mobile nav drawer -->
+  <nav class="mobile-nav" id="mobileNav" aria-hidden="true">
+    <a href="#work" onclick="closeMobile()">Work</a>
+    <a href="#services" onclick="closeMobile()">Services</a>
+    <a href="#studio" onclick="closeMobile()">Studio</a>
+    <a href="#testimonials" onclick="closeMobile()">Testimonials</a>
+    <a href="#contact" onclick="closeMobile()">Contact</a>
+  </nav>
+
+  <!-- ── HEADER ──────────────────────────────────────────────────────── -->
+  <header id="home">
+
+    <!-- Background layers -->
+    <div class="bg-art" aria-hidden="true"></div>
+    <div class="lines-layer" aria-hidden="true"></div>
+
+    <!-- Floating ring accents -->
+    <div class="float-group" aria-hidden="true">
+      <div class="float-el"></div>
+      <div class="float-el"></div>
+      <div class="float-el"></div>
+    </div>
+
+    <!-- ── NAV ──────────────────────────────────────────────────────── -->
+    <nav id="mainNav" role="navigation" aria-label="Main navigation">
+
+      <a class="logo" href="#home" aria-label="Luminary home">
+        <span class="logo-word">Luminary</span>
+        <span class="logo-dot" aria-hidden="true"></span>
+      </a>
+
+      <ul class="nav-links" role="list">
+        <li><a href="#work">Work</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#studio">Studio</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <a class="nav-cta" href="#contact"><span>Get Started</span></a>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+
+    <!-- ── HERO ──────────────────────────────────────────────────────── -->
+    <section class="hero" aria-label="Hero section">
+
+      <!-- Eyebrow label -->
+      <p class="eyebrow" aria-label="Award winning creative studio">Award Winning Creative Studio</p>
+
+      <!-- Main headline (split lines for animation) -->
+      <h1 class="headline" aria-label="We craft brands that shape tomorrow">
+        <span class="line"><span>We craft</span></span>
+        <span class="line"><span>brands that <em>shape</em></span></span>
+        <span class="line"><span>tomorrow.</span></span>
+      </h1>
+
+      <!-- Subheading -->
+      <p class="subhead">
+        Strategy, design, and storytelling for the brands bold enough to define the next era. Precision meets poetry.
+      </p>
+
+      <!-- CTA buttons -->
+      <div class="cta-group" role="group" aria-label="Call to action">
+        <a class="btn-primary" href="#work"><span>Explore Our Work</span></a>
+        <a class="btn-secondary" href="#studio">
+          Our Story
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+      </div>
+
+    </section>
+
+    <!-- Scroll indicator line -->
+    <div class="ornament" aria-hidden="true"></div>
+
+    <!-- Stats strip -->
+    <div class="stat-strip" aria-label="Studio statistics">
+      <div class="stat">
+        <span class="stat-num" data-target="240">0</span>
+        <span class="stat-label">Projects Delivered</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num" data-target="18">0</span>
+        <span class="stat-label">Years of Craft</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num" data-target="97">0</span>
+        <span class="stat-label">Client Satisfaction</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num" data-target="32">0</span>
+        <span class="stat-label">Industry Awards</span>
+      </div>
+    </div>
+
+  </header>
+
+  <!-- ── CLIENT LOGO STRIP ──────────────────────────────────────────── -->
+  <section class="clients-section" aria-label="Our clients">
+    <div class="container">
+      <p class="clients-label">Trusted by industry leaders</p>
+      <div class="client-logos">
+        <div class="client-logo">
+          <svg viewBox="0 0 120 40" aria-label="Nedbank">
+            <rect width="120" height="40" fill="rgba(200,169,110,0.1)" rx="4"/>
+            <text x="60" y="26" text-anchor="middle" fill="var(--gold)" font-size="14" font-weight="500" letter-spacing="0.1em">NEDBANK</text>
+          </svg>
+        </div>
+        <div class="client-logo">
+          <svg viewBox="0 0 120 40" aria-label="Takealot">
+            <rect width="120" height="40" fill="rgba(200,169,110,0.1)" rx="4"/>
+            <text x="60" y="26" text-anchor="middle" fill="var(--gold)" font-size="14" font-weight="500" letter-spacing="0.1em">TAKEALOT</text>
+          </svg>
+        </div>
+        <div class="client-logo">
+          <svg viewBox="0 0 120 40" aria-label="Woolworths">
+            <rect width="120" height="40" fill="rgba(200,169,110,0.1)" rx="4"/>
+            <text x="60" y="26" text-anchor="middle" fill="var(--gold)" font-size="14" font-weight="500" letter-spacing="0.1em">WOOLWORTHS</text>
+          </svg>
+        </div>
+        <div class="client-logo">
+          <svg viewBox="0 0 120 40" aria-label="Discovery">
+            <rect width="120" height="40" fill="rgba(200,169,110,0.1)" rx="4"/>
+            <text x="60" y="26" text-anchor="middle" fill="var(--gold)" font-size="14" font-weight="500" letter-spacing="0.1em">DISCOVERY</text>
+          </svg>
+        </div>
+        <div class="client-logo">
+          <svg viewBox="0 0 120 40" aria-label="Capitec">
+            <rect width="120" height="40" fill="rgba(200,169,110,0.1)" rx="4"/>
+            <text x="60" y="26" text-anchor="middle" fill="var(--gold)" font-size="14" font-weight="500" letter-spacing="0.1em">CAPITEC</text>
+          </svg>
+        </div>
+        <div class="client-logo">
+          <svg viewBox="0 0 120 40" aria-label="MTN">
+            <rect width="120" height="40" fill="rgba(200,169,110,0.1)" rx="4"/>
+            <text x="60" y="26" text-anchor="middle" fill="var(--gold)" font-size="14" font-weight="500" letter-spacing="0.1em">MTN</text>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PORTFOLIO / WORK SECTION ───────────────────────────────────── -->
+  <section id="work" class="work-section">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">Selected Work</p>
+        <h2 class="section-title">Crafting brands that<br /><em>leave a legacy</em></h2>
+      </div>
+
+      <div class="portfolio-grid">
+        <!-- Project 1 -->
+        <article class="project-card" data-category="branding">
+          <div class="project-image">
+            <div class="project-placeholder" style="background: linear-gradient(135deg, #1a1a2e 0%, #2d2d44 100%);">
+              <span class="project-icon">✦</span>
+            </div>
+            <div class="project-overlay">
+              <a href="#" class="project-link">View Case Study</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <p class="project-category">Branding / Identity</p>
+            <h3 class="project-title">Aether Wellness</h3>
+            <p class="project-desc">Complete brand transformation for a luxury wellness retreat, resulting in 340% increase in bookings.</p>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card" data-category="web">
+          <div class="project-image">
+            <div class="project-placeholder" style="background: linear-gradient(135deg, #2d1f3d 0%, #4a2d5c 100%);">
+              <span class="project-icon">◈</span>
+            </div>
+            <div class="project-overlay">
+              <a href="#" class="project-link">View Case Study</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <p class="project-category">Web Design / Development</p>
+            <h3 class="project-title">Meridian Finance</h3>
+            <p class="project-desc">Modern fintech platform redesign that improved user engagement by 185% and reduced bounce rate by 62%.</p>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project-card" data-category="strategy">
+          <div class="project-image">
+            <div class="project-placeholder" style="background: linear-gradient(135deg, #1f2d3d 0%, #3d4a5c 100%);">
+              <span class="project-icon">◇</span>
+            </div>
+            <div class="project-overlay">
+              <a href="#" class="project-link">View Case Study</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <p class="project-category">Brand Strategy</p>
+            <h3 class="project-title">Vanguard Motors</h3>
+            <p class="project-desc">Strategic repositioning for an automotive leader, driving 220% growth in premium segment sales.</p>
+          </div>
+        </article>
+
+        <!-- Project 4 -->
+        <article class="project-card" data-category="branding">
+          <div class="project-image">
+            <div class="project-placeholder" style="background: linear-gradient(135deg, #3d2d1f 0%, #5c4a2d 100%);">
+              <span class="project-icon">✧</span>
+            </div>
+            <div class="project-overlay">
+              <a href="#" class="project-link">View Case Study</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <p class="project-category">Branding / Packaging</p>
+            <h3 class="project-title">Solstice Botanicals</h3>
+            <p class="project-desc">Artisanal skincare brand identity that secured retail partnerships with 15+ luxury department stores.</p>
+          </div>
+        </article>
+
+        <!-- Project 5 -->
+        <article class="project-card" data-category="web">
+          <div class="project-image">
+            <div class="project-placeholder" style="background: linear-gradient(135deg, #1f3d2d 0%, #2d5c4a 100%);">
+              <span class="project-icon">⟡</span>
+            </div>
+            <div class="project-overlay">
+              <a href="#" class="project-link">View Case Study</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <p class="project-category">E-commerce / UX</p>
+            <h3 class="project-title">Artisan Market</h3>
+            <p class="project-desc">Custom e-commerce platform connecting 500+ artisans with global customers, $2M+ in first-year sales.</p>
+          </div>
+        </article>
+
+        <!-- Project 6 -->
+        <article class="project-card" data-category="strategy">
+          <div class="project-image">
+            <div class="project-placeholder" style="background: linear-gradient(135deg, #3d1f2d 0%, #5c2d4a 100%);">
+              <span class="project-icon">◊</span>
+            </div>
+            <div class="project-overlay">
+              <a href="#" class="project-link">View Case Study</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <p class="project-category">Digital Strategy</p>
+            <h3 class="project-title">Nova Healthcare</h3>
+            <p class="project-desc">Omnichannel digital strategy that increased patient acquisition by 275% across 12 clinic locations.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="work-cta">
+        <a href="#contact" class="btn-primary"><span>Start Your Project</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SERVICES SECTION ───────────────────────────────────────────── -->
+  <section id="services" class="services-section">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">What We Do</p>
+        <h2 class="section-title">Full-service creative<br /><em>from concept to conversion</em></h2>
+      </div>
+
+      <div class="services-grid">
+        <!-- Service 1 -->
+        <div class="service-card">
+          <div class="service-icon" aria-hidden="true">
+            <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+              <circle cx="24" cy="24" r="20" stroke="var(--gold)" stroke-width="1.5"/>
+              <path d="M24 8v32M8 24h32" stroke="var(--gold)" stroke-width="1.5"/>
+              <circle cx="24" cy="24" r="8" stroke="var(--gold)" stroke-width="1.5"/>
+            </svg>
+          </div>
+          <h3 class="service-title">Brand Strategy</h3>
+          <p class="service-desc">Positioning, messaging, and visual identity that cuts through noise and connects with your ideal audience.</p>
+          <ul class="service-list">
+            <li>Brand positioning & architecture</li>
+            <li>Visual identity systems</li>
+            <li>Brand guidelines & toolkits</li>
+            <li>Competitive analysis</li>
+          </ul>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="service-card">
+          <div class="service-icon" aria-hidden="true">
+            <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+              <rect x="6" y="6" width="36" height="36" rx="4" stroke="var(--gold)" stroke-width="1.5"/>
+              <path d="M6 18h36M18 18v24" stroke="var(--gold)" stroke-width="1.5"/>
+            </svg>
+          </div>
+          <h3 class="service-title">Web Design & Development</h3>
+          <p class="service-desc">Beautiful, performant websites that convert visitors into customers and reflect your brand's excellence.</p>
+          <ul class="service-list">
+            <li>Custom website design</li>
+            <li>E-commerce solutions</li>
+            <li>CMS integration</li>
+            <li>Performance optimization</li>
+          </ul>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="service-card">
+          <div class="service-icon" aria-hidden="true">
+            <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+              <path d="M24 4l17 10v20L24 44 7 34V14L24 4z" stroke="var(--gold)" stroke-width="1.5"/>
+              <path d="M24 24v20M24 24L7 14M24 24l17-10" stroke="var(--gold)" stroke-width="1.5"/>
+            </svg>
+          </div>
+          <h3 class="service-title">Digital Marketing</h3>
+          <p class="service-desc">Data-driven campaigns that amplify your reach, engage your audience, and drive measurable growth.</p>
+          <ul class="service-list">
+            <li>SEO & content strategy</li>
+            <li>Social media campaigns</li>
+            <li>Paid advertising (PPC)</li>
+            <li>Analytics & reporting</li>
+          </ul>
+        </div>
+
+        <!-- Service 4 -->
+        <div class="service-card">
+          <div class="service-icon" aria-hidden="true">
+            <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+              <circle cx="24" cy="20" r="10" stroke="var(--gold)" stroke-width="1.5"/>
+              <path d="M8 42c0-8.8 7.2-16 16-16s16 7.2 16 16" stroke="var(--gold)" stroke-width="1.5"/>
+            </svg>
+          </div>
+          <h3 class="service-title">Content Creation</h3>
+          <p class="service-desc">Compelling stories told through words, visuals, and video that captivate and convert your audience.</p>
+          <ul class="service-list">
+            <li>Brand storytelling</li>
+            <li>Video production</li>
+            <li>Photography direction</li>
+            <li>Copywriting & content strategy</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="services-cta">
+        <a href="#contact" class="btn-secondary">
+          Discuss Your Needs
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── ABOUT / STUDIO SECTION ─────────────────────────────────────── -->
+  <section id="studio" class="studio-section">
+    <div class="container">
+      <div class="studio-grid">
+        <div class="studio-content">
+          <p class="section-label">Our Studio</p>
+          <h2 class="section-title">Eighteen years of<br /><em>crafting excellence</em></h2>
+          <p class="studio-text">
+            Founded in 2008, Luminary began with a simple belief: that great brands are built at the intersection of strategy and soul.
+          </p>
+          <p class="studio-text">
+            Today, we're a team of 24 strategists, designers, and developers working with ambitious companies worldwide. From startups to Fortune 500s, we bring the same rigor, creativity, and care to every project.
+          </p>
+          <p class="studio-text">
+            Our work has been recognized with 32 industry awards, but our proudest metric is the 97% client satisfaction rate that comes from genuine partnership and relentless pursuit of excellence.
+          </p>
+
+          <div class="studio-stats">
+            <div class="studio-stat">
+              <span class="studio-stat-num">24</span>
+              <span class="studio-stat-label">Team Members</span>
+            </div>
+            <div class="studio-stat">
+              <span class="studio-stat-num">6</span>
+              <span class="studio-stat-label">Global Offices</span>
+            </div>
+            <div class="studio-stat">
+              <span class="studio-stat-num">15</span>
+              <span class="studio-stat-label">Countries Served</span>
+            </div>
+          </div>
+
+          <div class="studio-cta">
+            <a href="#contact" class="btn-primary"><span>Meet the Team</span></a>
+          </div>
+        </div>
+
+        <div class="studio-visual">
+          <div class="studio-image-placeholder">
+            <div class="studio-image-frame">
+              <span class="studio-image-icon">✦</span>
+              <p class="studio-image-text">Our Studio</p>
+            </div>
+          </div>
+          <div class="studio-accent" aria-hidden="true"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── TESTIMONIALS SECTION ───────────────────────────────────────── -->
+  <section id="testimonials" class="testimonials-section">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">Testimonials</p>
+        <h2 class="section-title">What our clients<br /><em>have to say</em></h2>
+      </div>
+
+      <div class="testimonials-grid">
+        <!-- Testimonial 1 -->
+        <blockquote class="testimonial-card">
+          <div class="testimonial-content">
+            <p class="testimonial-text">"Luminary transformed our brand from invisible to industry leader. Their strategic approach and flawless execution delivered a 340% increase in qualified leads within six months."</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar" aria-hidden="true">
+                <span>SK</span>
+              </div>
+              <div class="testimonial-info">
+                <cite class="testimonial-name">Sarah Kim</cite>
+                <span class="testimonial-role">CEO, Aether Wellness</span>
+              </div>
+            </div>
+          </div>
+        </blockquote>
+
+        <!-- Testimonial 2 -->
+        <blockquote class="testimonial-card">
+          <div class="testimonial-content">
+            <p class="testimonial-text">"The team at Luminary doesn't just design—they solve business problems. Our new platform reduced customer acquisition costs by 45% while improving user satisfaction scores."</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar" aria-hidden="true">
+                <span>MR</span>
+              </div>
+              <div class="testimonial-info">
+                <cite class="testimonial-name">Marcus Rodriguez</cite>
+                <span class="testimonial-role">CTO, Meridian Finance</span>
+              </div>
+            </div>
+          </div>
+        </blockquote>
+
+        <!-- Testimonial 3 -->
+        <blockquote class="testimonial-card">
+          <div class="testimonial-content">
+            <p class="testimonial-text">"Working with Luminary was the best investment we made. They captured our vision perfectly and delivered a brand identity that opened doors we didn't even know existed."</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar" aria-hidden="true">
+                <span>EJ</span>
+              </div>
+              <div class="testimonial-info">
+                <cite class="testimonial-name">Emma Johnson</cite>
+                <span class="testimonial-role">Founder, Solstice Botanicals</span>
+              </div>
+            </div>
+          </div>
+        </blockquote>
+      </div>
+
+      <div class="testimonial-cta">
+        <a href="#contact" class="btn-secondary">
+          Read More Case Studies
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CONTACT SECTION ────────────────────────────────────────────── -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p class="section-label">Get In Touch</p>
+          <h2 class="section-title">Ready to shape<br /><em>tomorrow together?</em></h2>
+          <p class="contact-text">
+            Whether you're launching a new brand, refreshing an existing one, or looking to elevate your digital presence—we'd love to hear from you.
+          </p>
+
+          <div class="contact-details">
+            <div class="contact-item">
+              <span class="contact-icon" aria-hidden="true">✉</span>
+              <div>
+                <p class="contact-label">Email us</p>
+                <a href="mailto:hello@luminary.studio" class="contact-link">hello@luminary.studio</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon" aria-hidden="true">☎</span>
+              <div>
+                <p class="contact-label">Call us</p>
+                <a href="tel:+27112345678" class="contact-link">+27 (0) 11 234 5678</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon" aria-hidden="true">◎</span>
+              <div>
+                <p class="contact-label">Visit us</p>
+                <p class="contact-link">123 Oxford Road, Rosebank, Johannesburg, 2196</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-social">
+            <a href="#" aria-label="LinkedIn" class="social-link">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+              </svg>
+            </a>
+            <a href="#" aria-label="Instagram" class="social-link">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+              </svg>
+            </a>
+            <a href="#" aria-label="Twitter" class="social-link">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+              </svg>
+            </a>
+            <a href="#" aria-label="Dribbble" class="social-link">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 24C5.385 24 0 18.615 0 12S5.385 0 12 0s12 5.385 12 12-5.385 12-12 12zm10.12-10.358c-.35-.11-3.17-.953-6.384-.438 1.34 3.684 1.887 6.684 1.992 7.308 2.3-1.555 3.936-4.02 4.395-6.87zm-6.115 7.808c-.153-.9-.75-4.032-2.19-7.77l-.066.02c-5.79 2.015-7.86 6.025-8.04 6.4 1.73 1.358 3.92 2.166 6.29 2.166 1.42 0 2.77-.29 4-.814zm-11.62-2.58c.232-.4 3.045-5.055 8.332-6.765.135-.045.27-.084.405-.12-.26-.585-.54-1.167-.832-1.74C7.17 11.775 2.206 11.71 1.756 11.7l-.004.312c0 2.633.999 5.037 2.634 6.855zm-2.42-8.955c.46.008 4.683.026 9.477-1.248-1.698-3.018-3.53-5.558-3.8-5.928-2.868 1.35-5.01 3.99-5.676 7.17zM9.6 2.052c.282.38 2.145 2.917 3.822 6 3.645-1.365 5.19-3.44 5.373-3.702-1.81-1.61-4.19-2.586-6.795-2.586-.825 0-1.63.1-2.4.285zm10.335 3.483c-.218.29-1.935 2.493-5.724 4.04.24.49.47.985.68 1.486.08.18.15.36.22.53 3.41-.43 6.8.26 7.14.33-.02-2.42-.88-4.64-2.31-6.38z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-form-wrapper">
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="form-group">
+              <label for="name" class="form-label">Full Name</label>
+              <input type="text" id="name" name="name" class="form-input" placeholder="John Doe" required />
+              <span class="form-error" id="nameError">Please enter your name</span>
+            </div>
+
+            <div class="form-group">
+              <label for="email" class="form-label">Email Address</label>
+              <input type="email" id="email" name="email" class="form-input" placeholder="john@company.com" required />
+              <span class="form-error" id="emailError">Please enter a valid email</span>
+            </div>
+
+            <div class="form-group">
+              <label for="company" class="form-label">Company</label>
+              <input type="text" id="company" name="company" class="form-input" placeholder="Your Company" />
+            </div>
+
+            <div class="form-group">
+              <label for="service" class="form-label">Service Interested In</label>
+              <select id="service" name="service" class="form-input" required>
+                <option value="">Select a service</option>
+                <option value="branding">Brand Strategy</option>
+                <option value="web">Web Design & Development</option>
+                <option value="marketing">Digital Marketing</option>
+                <option value="content">Content Creation</option>
+                <option value="other">Other / Multiple</option>
+              </select>
+              <span class="form-error" id="serviceError">Please select a service</span>
+            </div>
+
+            <div class="form-group">
+              <label for="budget" class="form-label">Project Budget</label>
+              <select id="budget" name="budget" class="form-input">
+                <option value="">Select budget range</option>
+                <option value="50k-100k">R50,000 - R100,000</option>
+                <option value="100k-250k">R100,000 - R250,000</option>
+                <option value="250k-500k">R250,000 - R500,000</option>
+                <option value="500k+">R500,000+</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message" class="form-label">Project Details</label>
+              <textarea id="message" name="message" class="form-input form-textarea" placeholder="Tell us about your project, goals, and timeline..." rows="4" required></textarea>
+              <span class="form-error" id="messageError">Please tell us about your project</span>
+            </div>
+
+            <button type="submit" class="btn-primary form-submit">
+              <span>Send Message</span>
+            </button>
+
+            <div class="form-success" id="formSuccess">
+              <svg width="48" height="48" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+                <circle cx="24" cy="24" r="22" stroke="var(--gold)" stroke-width="2"/>
+                <path d="M14 24l7 7 13-13" stroke="var(--gold)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <h3>Message Sent!</h3>
+              <p>Thank you for reaching out. We'll respond within 24 hours.</p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ──────────────────────────────────────────────────────── -->
+  <footer>
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a class="logo" href="#home" aria-label="Luminary home">
+          <span class="logo-word">Luminary</span>
+          <span class="logo-dot" aria-hidden="true"></span>
+        </a>
+        <p class="footer-tagline">Crafting brands bold enough to define the next era.</p>
+      </div>
+
+      <div class="footer-links">
+        <div class="footer-column">
+          <h4 class="footer-heading">Navigation</h4>
+          <ul>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#studio">Studio</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h4 class="footer-heading">Services</h4>
+          <ul>
+            <li><a href="#services">Brand Strategy</a></li>
+            <li><a href="#services">Web Design</a></li>
+            <li><a href="#services">Digital Marketing</a></li>
+            <li><a href="#services">Content Creation</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h4 class="footer-heading">Legal</h4>
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Cookie Policy</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2026 Luminary Studio. All rights reserved. | Johannesburg, South Africa</p>
+        <p>Designed by <span>Shumani Monyai</span></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+
+</body>
+</html>
